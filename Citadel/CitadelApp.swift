@@ -2,7 +2,7 @@
 //  CitadelApp.swift
 //  Citadel
 //
-//  Created by user on 10/01/2024.
+//  Created by Gichuki on 10/01/2024.
 //
 
 import SwiftUI

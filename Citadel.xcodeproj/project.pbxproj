@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE42893E2B5023E800CD8BBA /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE42893D2B5023E800CD8BBA /* MarkdownKit */; };
+		CE6132372B533CD700DAC87B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6132362B533CD700DAC87B /* WebView.swift */; };
 		CE9F02292B4F2B81005646EE /* CitadelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F02282B4F2B81005646EE /* CitadelApp.swift */; };
 		CE9F022B2B4F2B81005646EE /* CitadelDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F022A2B4F2B81005646EE /* CitadelDocument.swift */; };
 		CE9F022D2B4F2B81005646EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F022C2B4F2B81005646EE /* ContentView.swift */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE6132362B533CD700DAC87B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		CE9F02252B4F2B80005646EE /* Citadel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citadel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F02282B4F2B81005646EE /* CitadelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitadelApp.swift; sourceTree = "<group>"; };
 		CE9F022A2B4F2B81005646EE /* CitadelDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitadelDocument.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE42893E2B5023E800CD8BBA /* MarkdownKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +109,7 @@
 				CE9F02332B4F2B96005646EE /* Info.plist */,
 				CE9F02342B4F2B96005646EE /* Citadel.entitlements */,
 				CE9F02302B4F2B96005646EE /* Preview Content */,
+				CE6132362B533CD700DAC87B /* WebView.swift */,
 			);
 			path = Citadel;
 			sourceTree = "<group>";
@@ -150,6 +155,9 @@
 			dependencies = (
 			);
 			name = Citadel;
+			packageProductDependencies = (
+				CE42893D2B5023E800CD8BBA /* MarkdownKit */,
+			);
 			productName = Citadel;
 			productReference = CE9F02252B4F2B80005646EE /* Citadel.app */;
 			productType = "com.apple.product-type.application";
@@ -222,6 +230,9 @@
 				Base,
 			);
 			mainGroup = CE9F021C2B4F2B7F005646EE;
+			packageReferences = (
+				CE42893C2B5023E800CD8BBA /* XCRemoteSwiftPackageReference "swift-markdownkit" */,
+			);
 			productRefGroup = CE9F02262B4F2B80005646EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9F02292B4F2B81005646EE /* CitadelApp.swift in Sources */,
+				CE6132372B533CD700DAC87B /* WebView.swift in Sources */,
 				CE9F022B2B4F2B81005646EE /* CitadelDocument.swift in Sources */,
 				CE9F022D2B4F2B81005646EE /* ContentView.swift in Sources */,
 			);
@@ -578,6 +590,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE42893C2B5023E800CD8BBA /* XCRemoteSwiftPackageReference "swift-markdownkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/objecthub/swift-markdownkit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE42893D2B5023E800CD8BBA /* MarkdownKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE42893C2B5023E800CD8BBA /* XCRemoteSwiftPackageReference "swift-markdownkit" */;
+			productName = MarkdownKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE9F021D2B4F2B7F005646EE /* Project object */;
 }

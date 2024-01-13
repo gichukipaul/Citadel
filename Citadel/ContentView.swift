@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Citadel
 //
-//  Created by user on 10/01/2024.
+//  Created by Gichuki on 10/01/2024.
 //
 
 import SwiftUI
@@ -11,7 +11,13 @@ struct ContentView: View {
     @Binding var document: CitadelDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        HSplitView {
+            TextEditor(text: $document.text)
+                .frame(minWidth:200)
+            WebView(html: document.html)
+                .frame(minWidth:200)
+        }
+        .frame(minWidth:400, minHeight: 300)
     }
 }
 
