@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MarkdownKit",
+        "repositoryURL": "https://github.com/objecthub/swift-markdownkit",
+        "state": {
+          "branch": null,
+          "revision": "69b44cd50c683527643baa1d78ef71cda40ff65e",
+          "version": "1.1.7"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
