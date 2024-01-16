@@ -23,7 +23,7 @@ struct CitadelDocument: FileDocument {
         return HtmlGenerator.standard.generate(doc: markdown)
     }
 
-    init(text: String = "Hello, world!") {
+    init(text: String = "# Hello, world!") {
         self.text = text
     }
 
