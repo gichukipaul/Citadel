@@ -13,5 +13,13 @@ struct CitadelApp: App {
         DocumentGroup(newDocument: CitadelDocument()) { file in
             ContentView(document: file.$document)
         }
+        .commands {
+            MenuCommands()
+        }
+        
+        Settings {
+            SettingsView()
+                .frame(minWidth: 600, minHeight: 200)
+        }
     }
 }

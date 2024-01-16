@@ -22,13 +22,13 @@ struct CitadelDocument: FileDocument {
         let markdown =  MarkdownParser.standard.parse(text)
         return HtmlGenerator.standard.generate(doc: markdown)
     }
-
+    
     init(text: String = "# Hello, world!") {
         self.text = text
     }
-
+    
     static var readableContentTypes: [UTType] { [.exampleText] }
-
+    
     init(configuration: ReadConfiguration) throws {
         guard let data = configuration.file.regularFileContents,
               let string = String(data: data, encoding: .utf8)

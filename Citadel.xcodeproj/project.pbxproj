@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1174682B5684EC002FF807 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1174672B5684EC002FF807 /* SettingsView.swift */; };
+		CE11746A2B568A42002FF807 /* MenuCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1174692B568A41002FF807 /* MenuCommands.swift */; };
 		CE42893E2B5023E800CD8BBA /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE42893D2B5023E800CD8BBA /* MarkdownKit */; };
 		CE6132372B533CD700DAC87B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6132362B533CD700DAC87B /* WebView.swift */; };
 		CE9F02292B4F2B81005646EE /* CitadelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F02282B4F2B81005646EE /* CitadelApp.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1174672B5684EC002FF807 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE1174692B568A41002FF807 /* MenuCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCommands.swift; sourceTree = "<group>"; };
 		CE6132362B533CD700DAC87B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		CE9F02252B4F2B80005646EE /* Citadel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citadel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F02282B4F2B81005646EE /* CitadelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitadelApp.swift; sourceTree = "<group>"; };
@@ -79,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE11746B2B568EFC002FF807 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F022C2B4F2B81005646EE /* ContentView.swift */,
+				CE1174672B5684EC002FF807 /* SettingsView.swift */,
+				CE6132362B533CD700DAC87B /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE11746C2B568F35002FF807 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CE1174692B568A41002FF807 /* MenuCommands.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		CE9F021C2B4F2B7F005646EE = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +124,14 @@
 		CE9F02272B4F2B81005646EE /* Citadel */ = {
 			isa = PBXGroup;
 			children = (
+				CE11746C2B568F35002FF807 /* Menu */,
+				CE11746B2B568EFC002FF807 /* Views */,
 				CE9F02282B4F2B81005646EE /* CitadelApp.swift */,
 				CE9F022A2B4F2B81005646EE /* CitadelDocument.swift */,
-				CE9F022C2B4F2B81005646EE /* ContentView.swift */,
 				CE9F022E2B4F2B96005646EE /* Assets.xcassets */,
 				CE9F02332B4F2B96005646EE /* Info.plist */,
 				CE9F02342B4F2B96005646EE /* Citadel.entitlements */,
 				CE9F02302B4F2B96005646EE /* Preview Content */,
-				CE6132362B533CD700DAC87B /* WebView.swift */,
 			);
 			path = Citadel;
 			sourceTree = "<group>";
@@ -275,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1174682B5684EC002FF807 /* SettingsView.swift in Sources */,
 				CE9F02292B4F2B81005646EE /* CitadelApp.swift in Sources */,
+				CE11746A2B568A42002FF807 /* MenuCommands.swift in Sources */,
 				CE6132372B533CD700DAC87B /* WebView.swift in Sources */,
 				CE9F022B2B4F2B81005646EE /* CitadelDocument.swift in Sources */,
 				CE9F022D2B4F2B81005646EE /* ContentView.swift in Sources */,
