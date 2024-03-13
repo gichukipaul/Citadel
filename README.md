@@ -3,10 +3,10 @@
 
 ## Technologies Used
 This Mac app is built using the following technologies:
-- **Swift**: The primary programming language for developing macOS applications.
+- **Swift**: The primary programming language for developing for Apple platform.
 - **MarkdownKit**: A Swift framework for rendering Markdown content.
 - **HTMLKit**: A Swift framework for working with HTML content.
-- **Cocoa && SwiftUI**: The native macOS frameworks for building user interfaces.
+- **Cocoa && SwiftUI**: The native macOS and iOS frameworks for building user interfaces.
 
 ## Features
 - **Markdown to HTML Conversion**: Easily convert Markdown documents to HTML with a user-friendly interface.
