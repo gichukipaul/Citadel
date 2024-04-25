@@ -26,9 +26,8 @@ We welcome contributions from the community! If you'd like to contribute to the 
 1. Fork the repository on [GitHub](git@github.com:gichukipaul/Citadel.git).
 2. Clone your forked repository to your local machine.
 3. Create a new branch for your feature or bug fix.
-4. Make your changes and commit them with clear messages.
-5. Push your changes to your GitHub repository.
-6. Submit a pull request to the main repository.
+4. Make your changes and commit them with clear messages. Push your changes to your GitHub repository.
+5. Submit a pull request to the main repository.
 
 ## Acknowledgments
 We would like to express our gratitude to the following individuals and projects:
