@@ -2,7 +2,7 @@
 # Markdown to HTML Converter Mac App
 
 ## Technologies Used
-This Mac app is built using the following technologies:
+This Mac app is built using the following:
 - **Swift**: The primary programming language for developing for Apple platform.
 - **MarkdownKit**: A Swift framework for rendering Markdown content.
 - **HTMLKit**: A Swift framework for working with HTML content.
@@ -16,7 +16,7 @@ This Mac app is built using the following technologies:
 
 ## Getting Started
 To get started with the Markdown to HTML Converter Mac App, follow these steps:
-1. **Download the App**: Visit our [website](https://github.com/gichukipaul/Citadel/tree/main) to download the latest version of the app.
+1. **Download the App**: Visit our [website](https://github.com/gichukipaul/Citadel/tree/main) to download/clone the latest version of the app.
 2. **Installation**: Open the downloaded DMG file and drag the app to your Applications folder.
 3. **Launch the App**: Open the app from your Applications folder or the Launchpad.
 4. **Convert Markdown to HTML**: Paste or write your Markdown content in the editor and click the "Convert" button to generate the HTML.
@@ -31,7 +31,6 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 ## Acknowledgments
 We would like to express our gratitude to the following individuals and projects:
-
 - **MarkdownKit and HTMLKit Contributors**: The developers of these fantastic Swift frameworks.
 
 ## License
