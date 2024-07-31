@@ -1,8 +1,7 @@
 #  C I T A D E L
 # Markdown to HTML Converter Mac App
 
-## Technologies Used
-This Mac app is built using the following:
+This Mac app is built using:
 - **Swift**: The primary programming language for developing for Apple platform.
 - **MarkdownKit**: A Swift framework for rendering Markdown content.
 - **HTMLKit**: A Swift framework for working with HTML content.
@@ -14,7 +13,7 @@ This Mac app is built using the following:
 - **Syntax Highlighting**: Enhance readability with syntax highlighting for Markdown elements in the editor.
 - **Responsive Design**: The app is designed to work seamlessly across different screen sizes.
 
-## Getting Started
+## How To Get Started
 To get started with the Markdown to HTML Converter Mac App, follow these steps:
 1. **Download the App**: Visit our [website](https://github.com/gichukipaul/Citadel/tree/main) to download/clone the latest version of the app.
 2. **Installation**: Open the downloaded DMG file and drag the app to your Applications folder.
